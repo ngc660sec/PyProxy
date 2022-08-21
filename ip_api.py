@@ -3,6 +3,7 @@
 from proxy_redis import ProxyRedis
 from sanic import Sanic, json
 from sanic_cors import CORS
+from settings import *
 
 # 提供给外界一个http接口，外界通过访问接口来获取IP
 red = ProxyRedis()
@@ -22,7 +23,7 @@ def clhttp(req):
 
 
 def run():
-    app.run(host='127.0.0.1', port=10010)
+    app.run(host=API_ADDRESS, port=API_PORT)
 
 
 if __name__ == '__main__':
