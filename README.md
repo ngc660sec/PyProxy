@@ -14,4 +14,7 @@ Python可用的代理池
 # 使用方法
 - 首先安装支持库
   - pip instll -r requirements.txt
-- 
+- 直接启动 runner.py
+  - python3 runner.py
+- ![image](https://user-images.githubusercontent.com/52269948/185779097-af14949f-5d3c-4936-9f5b-95beb27bad27.png)
+- 访问 `127.0.0.1:10010` 获取验证成功ip
