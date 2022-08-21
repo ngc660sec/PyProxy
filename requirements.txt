@@ -1,0 +1,5 @@
+redis
+lxml
+sanic
+sanic_cors
+requests
