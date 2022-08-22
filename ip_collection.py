@@ -3,6 +3,7 @@
 from proxy_redis import ProxyRedis
 from multiprocessing import Process
 from concurrent.futures import ThreadPoolExecutor
+from settings import *
 import requests
 from lxml import etree
 import time
@@ -13,7 +14,7 @@ headers = {
 
 
 def get_kuai_ip(red):
-    for i in range(1, 100):
+    for i in range(1, KUAI_PAGE):
         url = f'https://free.kuaidaili.com/free/intr/{i}/'
         resp = requests.get(url=url, headers=headers)
         tree = etree.HTML(resp.text)
