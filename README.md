@@ -29,6 +29,8 @@
 - 首先安装支持库
   - `pip instll -r requirements.txt`
 - 直接启动 runner.py
-  - python3 runner.py
-- ![image](https://user-images.githubusercontent.com/52269948/185779097-af14949f-5d3c-4936-9f5b-95beb27bad27.png)
+  - `python3 runner.py`
+ ![image](https://user-images.githubusercontent.com/52269948/185817006-b600d913-5dea-42a6-b574-a04462a5714f.png)
 - 访问 `127.0.0.1:10010` 获取验证成功ip
+ ![image](https://user-images.githubusercontent.com/52269948/185817025-3fc49812-33c1-46c2-bde1-1dcb73d98308.png)
+
